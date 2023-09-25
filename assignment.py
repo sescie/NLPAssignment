@@ -17,7 +17,7 @@ R204440W
 from google.colab import drive
 drive.mount('/content/drive')
 
-file = open("/content/drive/MyDrive/shona.txt","r")
+file = open("shona.txt","r")
 shona_text = file.read()
 
 shona_text
