@@ -23,7 +23,7 @@ import pickle
 
 # Load the model and tokenizer
 model = load_model('best_model2.h5',compile=False)
-tokenizer = pickle.load(open('tokenizer(3).pkl', 'rb'))
+tokenizer = pickle.load(open('tokenizer2.pkl', 'rb'))
 
 
 
@@ -67,8 +67,8 @@ def main():
     """
     st.markdown(html_temp, unsafe_allow_html=True)
 
-    st.title("Predict next few words ........")
-    user_input = st.text_input("Enter any five words: ")
+    st.title("Fembera mazwi anotevera ........")
+    user_input = st.text_input("Nyora mazwi mashanu anovamba mutsara muchiShona: ")
     lst = list(user_input.split())
 
             
