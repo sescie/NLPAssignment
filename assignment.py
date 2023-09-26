@@ -60,7 +60,7 @@ def main():
 
     html_temp = """
     <body style="background-color:red;">
-    <div style="background-color:green ;padding:10px">
+    <div style="background-color:blue ;padding:10px">
     <h2 style="color:white;text-align:center;">Shona Prediction App</h2>
     </div>
     </body>
@@ -73,7 +73,7 @@ def main():
 
             
 
-    if st.button("Generate"):
+    if st.button("Fembera"):
         
         if (user_input is not None and len(lst)==5):
         
