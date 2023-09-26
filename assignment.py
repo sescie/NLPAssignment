@@ -81,7 +81,7 @@ def main():
             st.success(result)
         
         else:
-            st.write("Nyora mazwi mashanu anovamba mutsara muchiShona")
+            st.write("Tangazve: Nyora mazwi mashanu anovamba mutsara muchiShona")
         
         
 
