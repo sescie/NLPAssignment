@@ -20,7 +20,6 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import *
 import numpy as np
 import pickle
-import keras_preprocessing
 
 # Load the model and tokenizer
 model = load_model('best_model2.h5',compile=False)
