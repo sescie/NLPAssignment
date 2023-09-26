@@ -23,24 +23,13 @@ import pickle
 
 # Load the model and tokenizer
 model = load_model('best_model2.h5',compile=False)
-tokenizer = pickle.load(open('tokenizerr.pkl', 'rb'))
+tokenizer = pickle.load(open('tokenizer.pkl', 'rb'))
 
 
 
 
 def predict_next_words(model, tokenizer, text, num_words=1):
-    """
-    Predict the next set of words using the trained model.
 
-    Args:
-    - model (keras.Model): The trained model.
-    - tokenizer (Tokenizer): The tokenizer object used for preprocessing.
-    - text (str): The input text.
-    - num_words (int): The number of words to predict.
-
-    Returns:
-    - str: The predicted words.
-    """
     for _ in range(num_words):
         # Tokenize and pad the text
         sequence = tokenizer.texts_to_sequences([text])[0]
@@ -92,7 +81,7 @@ def main():
             st.success(result)
         
         else:
-            st.write("Please enter five words only")
+            st.write("Nyora mazwi mashanu anovamba mutsara muchiShona")
         
         
 
