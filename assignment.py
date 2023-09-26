@@ -60,7 +60,7 @@ def main():
 
     html_temp = """
     <body style="background-color:red;">
-    <div style="background-color:blue ;padding:10px">
+    <div style="background-color:black, ;padding:10px">
     <h2 style="color:white;text-align:center;">Shona Prediction App</h2>
     </div>
     </body>
