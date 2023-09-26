@@ -67,7 +67,7 @@ def main():
     """
     st.markdown(html_temp, unsafe_allow_html=True)
 
-    st.title("Fembera mazwi anotevera ........")
+    st.title("Fembera mazwi anotevera:")
     user_input = st.text_input("Nyora mazwi mashanu anovamba mutsara muchiShona: ")
     lst = list(user_input.split())
 
